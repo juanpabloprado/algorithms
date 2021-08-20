@@ -1,8 +1,11 @@
 .vscode/
 
 
-# Compiled class file
+# Java class files
 *.class
+
+# Generated files
+out/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
