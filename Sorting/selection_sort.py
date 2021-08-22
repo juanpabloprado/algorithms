@@ -11,7 +11,7 @@ numbers = load_numbers(sys.argv[1])
 def selection_sort(values):
   # We'll create an empty list that will hold all our sorted values.
   sorted_list = []
-  print("%-25s %-25s" % (values, sorted_list))
+  #print("%-25s %-25s" % (values, sorted_list))
   # We'll loop once for each value in the list.
   for i in range(0, len(values)):
     # We call a function named index_of_min, which we're going to
@@ -23,7 +23,7 @@ def selection_sort(values):
     # list and return it. We then add that value at the end of the
     # sorted list.
     sorted_list.append(values.pop(index_to_move))
-    print("%-25s %-25s" % (values, sorted_list))
+    #print("%-25s %-25s" % (values, sorted_list))
   # Going up a level of indentation signals to Python that we're
   # ending the loop. After the loop finishes, we return the sorted
   # list.
