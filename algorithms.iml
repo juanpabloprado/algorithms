@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/linear_search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/merge_sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/recursive_binary_search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
