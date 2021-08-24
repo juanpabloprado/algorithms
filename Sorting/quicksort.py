@@ -48,7 +48,7 @@ def quicksort(values):
   # the sorted values less than the pivot, the pivot itself, and the
   # sorted values greater than the pivot. That gives us a complete,
   # sorted list, which we return.
-  print("%15s %1s %-15s" % (less_than_pivot, pivot, greater_than_pivot))
+  #print("%15s %1s %-15s" % (less_than_pivot, pivot, greater_than_pivot))
   return quicksort(less_than_pivot) + [pivot] + quicksort(greater_than_pivot)
 
 # Lastly, we need to call our quicksort function with our list of
