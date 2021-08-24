@@ -1,7 +1,6 @@
 package mergesort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Sort {
@@ -34,7 +33,7 @@ public class Sort {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(32, 100, 1, 2, 29, 28, 88, 3, 50, 67, 37, 1, 57, 20));
+        List<Integer> list = List.of(32, 100, 1, 2, 29, 28, 88, 3, 50, 67, 37, 1, 57, 20);
         System.out.println(mergeSort(list));
     }
 }
