@@ -1,10 +1,13 @@
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class LRUCache<K, V> implements Cache<K, V> {
     private final int capacity;
-    private final LinkedHashMap<K, V> map;
-    private final ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
+    private final Map<K, V> map;
+    private final ReadWriteLock lock = new ReentrantReadWriteLock();
 
     public LRUCache(int capacity) {
         this.map = new LinkedHashMap<>(capacity);
