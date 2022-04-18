@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/java_most_freq_int" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java_only_appears_once" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java_pair_sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
