@@ -11,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/recursive_binary_search" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting&amp;Searching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java_lru_cache" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java_most_freq_int" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java_only_appears_once" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java_pair_sum" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
