@@ -7,12 +7,12 @@ public class LongestCommonPrefix {
         System.out.println(longestCommonPrefix(new String[]{"colorado", "color", "cold"}));
     }
 
-    public static String longestCommonPrefix(String[] strs) {
+    public static String longestCommonPrefix(String[] strings) {
         StringBuilder longestCommonPrefix = new StringBuilder();
         int index = 0;
-        for (char c : strs[0].toCharArray()) {
-            for (int i = 1; i < strs.length; i++) {
-                if (index >= strs[i].length() || c != strs[i].charAt(index)) {
+        for (char c : strings[0].toCharArray()) {
+            for (int i = 1; i < strings.length; i++) {
+                if (index >= strings[i].length() || c != strings[i].charAt(index)) {
                     return longestCommonPrefix.toString();
                 }
             }
