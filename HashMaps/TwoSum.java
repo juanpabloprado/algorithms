@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-/* Given an array of integers, return whether or not two numbers sum to a given target, k.
+/* Given an array of integers, return whether two numbers sum to a given target, k.
 Note: you may not sum a number with itself. */
 public class TwoSum {
     public static void main(String[] args) {
@@ -13,13 +13,13 @@ public class TwoSum {
 
     public static boolean twoSum(int[] nums, int k) {
         Set<Integer> set = new HashSet<>();
-        for(int i = 0; i < nums.length; i++) {
-            int difference = k - nums[i];
-            if(set.contains(difference)) {
+        for (int num : nums) {
+            int difference = k - num;
+            if (set.contains(difference)) {
                 return true;
             }
 
-            set.add(nums[i]);
+            set.add(num);
         }
 
         return false;
